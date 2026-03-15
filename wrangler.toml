@@ -1,0 +1,9 @@
+name = "what-happensffj"
+compatibility_date = "2024-04-03"
+pages_build_output_dir = ".output/public"
+
+[build]
+command = "yarn config set ignore-engines true && yarn run build"
+
+[vars]
+NODE_VERSION = "22"
